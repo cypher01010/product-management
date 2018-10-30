@@ -1,8 +1,6 @@
-SIMPLE PRODUCT MANAGEMENT
+### SIMPLE PRODUCT MANAGEMENT
 
 URL: http://104.129.16.19/pms/web/
-
-
 
 Configuration:
 
@@ -22,10 +20,11 @@ return [
 ### File Upload
 
 Edit the file 'config/params.php'
-
+```php
 return [
     'adminEmail' => 'admin@example.com',
     'uploadPath' => '/var/www/html/basic/web/uploads/x',
     'imgUrl' => 'http://basic.local/uploads/',
 ];
+```
 
