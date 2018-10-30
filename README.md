@@ -23,7 +23,7 @@ Edit the file 'config/params.php'
 ```php
 return [
     'adminEmail' => 'admin@example.com',
-    'uploadPath' => '/var/www/html/basic/web/uploads/x',
+    'uploadPath' => '/var/www/html/basic/web/uploads/',
     'imgUrl' => 'http://basic.local/uploads/',
 ];
 ```
