@@ -1,8 +1,8 @@
 # Introduction
 
-An example of a product management application which I developed using Yii Framework 2.0  
+This is an example of a product management application which I developed using Yii Framework 2.0. I used this framework since I'm familiar with this. The steps needed to setup the solution and dependencies are shown below. I was able to finish this application for approximately 10-12 hours. I'm using Gii extension to speed up the development. 
 
-Visit http://104.129.16.19/pms/web/ for the demo.
+You can visit this url http://104.129.16.19/pms/web/ for the demo.
 
 
 # Installation
