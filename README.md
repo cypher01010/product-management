@@ -1,10 +1,17 @@
-### SIMPLE PRODUCT MANAGEMENT
+# Introduction
 
-URL: http://104.129.16.19/pms/web/
+An example of a product management application which I developed using Yii Framework 2.0  
 
-Configuration:
+Visit http://104.129.16.19/pms/web/ for the demo.
 
-### Database
+
+# Installation
+Clone with `git` 
+
+```shell
+$ git clone git@github.com:cypher01010/product-management.git <target-directory>
+```
+### Database Config
 
 Edit the file `config/db.php` with real data, for example:
 
@@ -17,12 +24,11 @@ return [
     'charset' => 'utf8',
 ];
 ```
-### File Upload
+### File Upload Config
 
-Edit the file 'config/params.php'
+Edit the file `config/params.php`
 ```php
 return [
-    'adminEmail' => 'admin@example.com',
     'uploadPath' => '/var/www/html/basic/web/uploads/',
     'imgUrl' => 'http://basic.local/uploads/',
 ];
